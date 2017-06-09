@@ -1,7 +1,7 @@
 import pytest
 from expecter import expect
 
-from webcalc import app
+from webcalc import app, mongo
 
 
 @pytest.fixture
@@ -35,7 +35,7 @@ def pattern():
         )
 
 
-def describe_calc():    
+def describe_calc():
         def from_db(client, pattern):
             response = client.get('/4/x/5')
 
