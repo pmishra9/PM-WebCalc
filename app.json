@@ -2,6 +2,8 @@
   "name": "PM-WebCalc",
   "description": "creating app.json file from heroku",
   "scripts": {
+    "postdeploy": "python seeds.py"
+
   },
   "env": {
   },
