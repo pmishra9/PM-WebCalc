@@ -33,7 +33,7 @@ def pattern():
                 pattern="{{ a * b }}"
             )
         )
-…
+
 
 def describe_calc():
         …
