@@ -35,8 +35,7 @@ def pattern():
         )
 
 
-def describe_calc():
-        …
+def describe_calc():    
         def from_db(client, pattern):
             response = client.get('/4/x/5')
 
